@@ -27,6 +27,9 @@ nav {
 .everything {
     margin: 10%;
 }
+.clickable {
+    cursor: pointer;
+}
 
 h1 {
 
@@ -35,3 +38,4 @@ h1 {
 p {
     font-weight: lighter;
 }
+
