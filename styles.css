@@ -1,12 +1,20 @@
+/*
+<p> tag for light text, 
+<h2> for title,
+<h3> for subtitle
+<h4> for normal text
+*/
+
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: Arial;
+    font-family: Helvetica, sans-serif;
     font-weight: normal;
 }
 
 nav {
     height: 64px;
+    text-align: center;
 }
 
 .about {
@@ -16,4 +24,12 @@ nav {
 
 .everything {
     margin: 128px;
+}
+
+h1 {
+
+    font-size: 32px;
+}
+p {
+    font-weight: lighter;
 }
