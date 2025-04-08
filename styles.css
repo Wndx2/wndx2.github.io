@@ -5,10 +5,20 @@
 <h4> for normal text
 */
 
+@font-face {
+    font-family: Raleway;
+    src: url(./css/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: SUITE;
+    src: url(./css/fonts/SUITE-Regular.ttf);
+}
+
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: Helvetica, sans-serif;
+    font-family: Raleway, SUITE, Helvetica, sans-serif;
     font-weight: normal;
 }
 
@@ -25,6 +35,7 @@ h1 {
 }
 p {
     font-weight: lighter;
+    color: #696969;
 }
 
 .everything {
