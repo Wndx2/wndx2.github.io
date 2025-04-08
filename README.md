@@ -1,3 +1,3 @@
 # wndx2.github.io
 
-website for random stuffs\
+website for random stuffs
