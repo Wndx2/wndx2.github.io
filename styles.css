@@ -19,18 +19,6 @@ nav {
     align-items: center;
 }
 
-.about {
-    width: 256px;
-    text-align: center;
-}
-
-.everything {
-    margin: 10%;
-}
-.clickable {
-    cursor: pointer;
-}
-
 h1 {
 
     font-size: 32px;
@@ -39,3 +27,25 @@ p {
     font-weight: lighter;
 }
 
+.everything {
+    margin: 10%;
+    display: flex; 
+    gap: 0px; 
+    align-items: flex-start; 
+}
+
+.about {
+    width: 256px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.content {
+    width: calc(100% - 276px); 
+    background-color: #212121;
+    flex-shrink: 0; 
+}
