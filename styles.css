@@ -46,6 +46,18 @@ p {
 
 .content {
     width: calc(100% - 276px); 
+    height: 100px;
     background-color: #212121;
+    border-radius: 5px; 
     flex-shrink: 0; 
+}
+
+.downloader {
+    display: inline-block; 
+    padding: 10px 20px; 
+    background-color: #696969; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-right: 10%;
 }
