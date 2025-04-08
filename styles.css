@@ -8,3 +8,8 @@ body {
 nav {
     height: 64px;
 }
+
+.about {
+    width: 256px;
+    text-align: center;
+}
