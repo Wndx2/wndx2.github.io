@@ -1,0 +1,10 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+nav {
+    height: 64px;
+}
