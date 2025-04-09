@@ -6,6 +6,11 @@
 */
 
 @font-face {
+    font-family: Brass;
+    src: url(./css/fonts/BrassMono-Regular.ttf);
+}
+
+@font-face {
     font-family: Raleway;
     src: url(./css/fonts/Raleway-Regular.ttf);
 }
@@ -18,7 +23,7 @@
 body {
     background-color: #121212;
     color: #ffffff;
-    font-family: Raleway, SUITE, Helvetica, sans-serif;
+    font-family: Brass, SUITE, Helvetica, sans-serif;
     font-weight: normal;
 }
 
@@ -43,32 +48,4 @@ p {
     display: flex; 
     gap: 0px; 
     align-items: flex-start; 
-}
-
-.about {
-    width: 256px;
-    text-align: center;
-    flex-shrink: 0;
-}
-
-.clickable {
-    cursor: pointer;
-}
-
-.content {
-    width: calc(100% - 276px); 
-    height: 100px;
-    background-color: #212121;
-    border-radius: 5px; 
-    flex-shrink: 0; 
-}
-
-.downloader {
-    display: inline-block; 
-    padding: 10px 20px; 
-    background-color: #696969; 
-    color: white; 
-    text-decoration: none; 
-    border-radius: 5px; 
-    margin-right: 10%;
 }
