@@ -25,6 +25,8 @@ body {
     color: #ffffff;
     font-family: Brass, SUITE, Helvetica, sans-serif;
     font-weight: normal;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 nav {
@@ -40,7 +42,6 @@ nav {
 
 .grid-item {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
     height: 64px;
 }
@@ -49,23 +50,22 @@ nav {
     display: flex; 
     flex-direction: row; 
     align-items: center; 
-    gap: 10px;
 }
 
 .button {
-    position: fixed;
+    position: relative;
     font-family: Raleway, SUITE, Monospace, serif;
     font-weight: normal;
-    top: 20px;
-    right: 20px;
     padding: 10px 20px;
-    background-color: #212121;
+    background-color: #121212;
     color: #ffffff;
     border: none;
     border-radius: 50px;
     cursor: pointer;
+    margin-right: 20px; /* Adds a horizontal gap between buttons */
+    margin-left: 20px;
 }
 
 .button:hover {
-    background-color: #333333;
+    background-color: #181828;
 }
