@@ -26,26 +26,3 @@ body {
     font-family: Brass, SUITE, Helvetica, sans-serif;
     font-weight: normal;
 }
-
-nav {
-    height: 64px;
-    margin-left: 20%;
-    margin-right: 20%;
-    align-items: center;
-}
-
-h1 {
-
-    font-size: 32px;
-}
-p {
-    font-weight: lighter;
-    color: #696969;
-}
-
-.everything {
-    margin: 10%;
-    display: flex; 
-    gap: 0px; 
-    align-items: flex-start; 
-}
